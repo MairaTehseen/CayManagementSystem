@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AutoCarWebsite", "AutoCarWebsite\", "{E8C3A2D8-F322-4F6F-84B8-FD75D8A8E571}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{06555e95-a6be-4bbb-9a7d-50928022fbc1}|ClassLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64765"
+		Debug.AspNetCompiler.PhysicalPath = "AutoCarWebsite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64765\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64765"
+		Release.AspNetCompiler.PhysicalPath = "AutoCarWebsite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64765\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64765"
+		SlnRelativePath = "AutoCarWebsite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{7456FFAD-C649-47E5-B7B7-DFDA11DBF9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{06555E95-A6BE-4BBB-9A7D-50928022FBC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8C3A2D8-F322-4F6F-84B8-FD75D8A8E571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C3A2D8-F322-4F6F-84B8-FD75D8A8E571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C3A2D8-F322-4F6F-84B8-FD75D8A8E571}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C3A2D8-F322-4F6F-84B8-FD75D8A8E571}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7456FFAD-C649-47E5-B7B7-DFDA11DBF9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7456FFAD-C649-47E5-B7B7-DFDA11DBF9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7456FFAD-C649-47E5-B7B7-DFDA11DBF9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7456FFAD-C649-47E5-B7B7-DFDA11DBF9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06555E95-A6BE-4BBB-9A7D-50928022FBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06555E95-A6BE-4BBB-9A7D-50928022FBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06555E95-A6BE-4BBB-9A7D-50928022FBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06555E95-A6BE-4BBB-9A7D-50928022FBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6606E4B1-025D-4357-9B06-64A48A5979D6}
+	EndGlobalSection
+EndGlobal
